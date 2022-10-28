@@ -20,7 +20,7 @@ def load_data(nrows):
     car_dataset.replace({'Transmission':{'Manual':0,'Automatic':1}},inplace=True)
     return car_dataset
 
-data=load_data(301)
+data=load_data(300)
 
 if st.checkbox("Show Raw Data",False):
     st.subheader('Raw Data')
