@@ -6,8 +6,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
 from sklearn import metrics
 
-st.title("CAR PRICE PREDICTION")
-st.markdown("### THE APPLICATION IS A CAR PRICE PREDICTOR")
+st.title("🚗CAR PRICE PREDICTION🚗")
+st.markdown("### THIS APPLICATION IS A CAR PRICE PREDICTOR")
 
 @st.cache(persist=True)
 def load_data(nrows):
