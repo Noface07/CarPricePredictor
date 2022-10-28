@@ -11,7 +11,7 @@ st.markdown("### THE APPLICATION IS A CAR PRICE PREDICTOR")
 
 @st.cache(persist=True)
 def load_data(nrows):
-    car_dataset = pd.read_csv('\car data.csv')
+    car_dataset = pd.read_csv('car data.csv')
     #encoding "Fuel_Type" Column
     car_dataset.replace({'Fuel_Type':{'Petrol':0,'Diesel':1,'CNG':2}},inplace=True)
     #encoding "Seller_Type" Column
